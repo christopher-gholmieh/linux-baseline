@@ -19,9 +19,6 @@ from source import (
     Recorder
 )
 
-# OS:
-import os
-
 
 # Variables (Assignment):
 # Parser:
