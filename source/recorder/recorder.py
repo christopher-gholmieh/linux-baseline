@@ -39,7 +39,7 @@ class Recorder:
         # Result:
         result = subprocess.run(
             # Command:
-            ["dpkg-query", "-f", "${binary:Package}\n", "-W"],
+            ["dpkg-query", "-f", "${Package}\n", "-W"],
 
             # Output:
             capture_output=True,
